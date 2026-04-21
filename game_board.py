@@ -185,7 +185,7 @@ class GameBoard:
         if moves:
                 move = random.choice(moves)
                 self.make_move(*move)
-                return True
+                return move
 
         return False   # no move found
     
